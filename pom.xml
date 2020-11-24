@@ -172,7 +172,15 @@
             <artifactId>lombok</artifactId>
         </dependency>
 
-    </dependencies>
+    </dependencies>mapper
+    static
+    templates
+    application.yml
+    application-dev.yml
+    application-test.yml
+    banner.txt
+    ehcache-shiro.xml
+    logback.xml
 
 
     <build>
