@@ -1,0 +1,23 @@
+2020-11-24 15:03:29.460 [restartedMain] INFO  com.nateshao.NateshaoShiroApplication - Starting NateshaoShiroApplication using Java 1.8.0_192 on DESKTOP-1FD8RCV with PID 20996 (F:\GitHub--Gitee\nateshao-github\nateshao-shiro\target\classes started by 邵桐杰 in F:\GitHub--Gitee\nateshao-github\nateshao-shiro)
+2020-11-24 15:03:29.463 [restartedMain] INFO  com.nateshao.NateshaoShiroApplication - The following profiles are active: dev
+2020-11-24 15:03:29.902 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-24 15:03:29.903 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-24 15:03:32.633 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-24 15:03:32.640 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-24 15:03:32.720 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2020-11-24 15:03:34.615 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-24 15:03:34.699 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-24 15:03:34.700 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-24 15:03:34.700 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-24 15:03:34.877 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-24 15:03:34.877 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4970 ms
+2020-11-24 15:03:35.137 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 15:03:36.094 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Starting...
+2020-11-24 15:03:36.758 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Start completed.
+2020-11-24 15:03:36.958 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Shutdown initiated...
+2020-11-24 15:03:36.984 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Shutdown completed.
+2020-11-24 15:03:36.986 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-24 15:03:36.998 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-11-24 15:03:37.020 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
