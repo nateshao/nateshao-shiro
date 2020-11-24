@@ -25,7 +25,7 @@
 
 ### 个人资料
 
-![](http://cdn.liuzhaopo.top/lzhpo-shiro-%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%96%99.png)
+![](https://github.com/nateshao/nateshao-shiro/blob/main/images/%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%96%99.png)
 
 ## 技术栈
 
