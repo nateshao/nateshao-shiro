@@ -1,5 +1,34 @@
 package com.nateshao.admin.controller;
 
+import com.google.code.kaptcha.impl.DefaultKaptcha;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authc.IncorrectCredentialsException;
+import org.apache.shiro.authc.LockedAccountException;
+import org.apache.shiro.authc.UnknownAccountException;
+import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.subject.Subject;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import javax.imageio.ImageIO;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+import java.time.LocalDate;
+
 /**
  * @date Created by 邵桐杰 on 2020/11/24 0:07
  * @微信公众号 千羽的编程时光
@@ -124,7 +153,7 @@ public class LonginController {
             UsernamePasswordToken token = new UsernamePasswordToken(username,password,Boolean.valueOf(rememberMe));
             try {
                 user.login(token);
-                LOGGER.debug(username+"用户"+LocalDate.now().toString()+":======》登陆系统!");
+                LOGGER.debug(username+"用户"+ LocalDate.now().toString()+":======》登陆系统!");
             }catch (IncorrectCredentialsException e) {
                 errorMsg = "用户名密码错误!";
             }catch (UnknownAccountException e) {
