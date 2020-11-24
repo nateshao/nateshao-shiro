@@ -15,17 +15,13 @@
 
 ### 全局概览
 
-![](http://cdn.liuzhaopo.top/lzhpo-shiro-%E6%9B%B4%E6%8D%A2%E7%9A%AE%E8%82%A4.png)
+![](https://github.com/nateshao/nateshao-shiro/blob/main/images/%E5%85%A8%E5%B1%80.png)
 
 个人喜欢顶部颜色值`#00a65a`，可以自己去`static/admin/js/index.js`下设计自己喜欢的颜色主题。
 
 ### 权限管理
 
-![](http://cdn.liuzhaopo.top/lzhpo-shiro-%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86.png)
-
-### 分配角色权限
-
-![](http://cdn.liuzhaopo.top/lzhpo-shiro-%E5%88%86%E9%85%8D%E8%A7%92%E8%89%B2%E6%9D%83%E9%99%902.png)
+![](https://github.com/nateshao/nateshao-shiro/blob/main/images/%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86.png)
 
 ### 个人资料
 
