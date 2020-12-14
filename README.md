@@ -58,7 +58,7 @@ git clone https://github.com/nateshao/nateshao-shiro.git
 
 ### 运行项目
 
-启动`com.nateshao.NateshaoShiroApplication`
+启动`NateshaoShiroApplication`
 
 ### 登录
 
