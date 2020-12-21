@@ -69,12 +69,13 @@ git clone https://github.com/nateshao/nateshao-shiro.git
 ## 感谢JetBrains提供的免费开源License
 [![https://github.com/lets-mica/mica/raw/c251e176b81518a6a570bf4eb21f525c4f582a81/docs/img/jetbrains.png](https://github.com/lets-mica/mica/raw/c251e176b81518a6a570bf4eb21f525c4f582a81/docs/img/jetbrains.png)](https://www.jetbrains.com/?from=lzhpo-shiro)
 
-## 打赏作者
 
-喜欢的话，先star，然后可以小额打赏一下哈~
+## 赞助作者买个馒头吧💚
 
-| 支付宝                                                       | 微信                                                 |
-| ------------------------------------------------------------ | ---------------------------------------------------- |
-| <img width="200" height="200" src="https://nateshao.gitee.io/img/alipay.jpg"/> | <img width="200" height="200" src="https://nateshao.gitee.io/img/weixin.jpg"/> |
+| 支付宝                                                       | 微信                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img width="200" height="200" src="https://nateshao.gitee.io/medias/reward/alipay.jpg"/> | <img width="200" height="200" src="https://nateshao.gitee.io/medias/reward/wechat.png"/> |
+
+
 
 
